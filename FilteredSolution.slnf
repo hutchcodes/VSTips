@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "VSTips.sln",
+    "projects": [
+      "VSTips.Tests\\VSTips.Tests.csproj",
+      "VSTips\\VSTips.csproj"
+    ]
+  }
+}
