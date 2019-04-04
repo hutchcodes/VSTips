@@ -10,6 +10,7 @@ namespace VSTips.DebuggerDisplay
         static List<Person> persons;
         public static void Run()
         {
+            //Todo: Show a task
             persons = new List<Person>
             {
                 new Person {FirstName = "Fred", LastName = "Flintstone" },
@@ -17,7 +18,7 @@ namespace VSTips.DebuggerDisplay
                 new Person {FirstName = "Pebbles", LastName = "Flintstone" },
                 new Person {FirstName = "Barney", LastName = "Rubble" },
                 new Person {FirstName = "Betty", LastName = "Rubble" },
-                new Person {FirstName = "Bamm-Bamm", LastName = "Rubble" },             
+                new Person {FirstName = "Bamm-Bamm", LastName = "Rubble" },
             };
 
             var p = new Person { FirstName = "Dino", LastName = "Flintstone" };

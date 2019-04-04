@@ -3,9 +3,10 @@
 namespace VSTips.DebuggerDisplay
 {
     [DebuggerDisplay("{LastName,nq}, {FirstName.Length >= 5 ? FirstName.Substring(0, 5) : FirstName,nq}")]
-    class Person 
+    class Person
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
 }
+
