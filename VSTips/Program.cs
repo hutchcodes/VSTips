@@ -6,10 +6,11 @@ namespace VSTips
     {
         static void Main(string[] args)
         {
-            DebuggerDisplay.DebuggerDisplay.Run();
+            //DebuggerDisplay.DebuggerDisplay.Run();
             //ViewUncapturedException.ViewUncapturedException.Run();
             //NSEFunctionEval.NSEFunctionEval.Run();
-            Breakpoints.Breakpoints.Run();
+            //Breakpoints.Breakpoints.Run();
+            FormatSpecifiers.FormatSpecifiers.Run();
 
             Console.ReadKey();
             

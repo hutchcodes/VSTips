@@ -1,3 +1,14 @@
-{
-
-}
+[
+  {
+    "FirstName": "Fred",
+    "LastName": "Flintstone"
+  },
+  {
+    "FirstName": "Wilma",
+    "LastName": "Flintstone"
+  },
+  {
+    "FirstName": "Pebbles",
+    "LastName": "Flintstone"
+  }
+]
