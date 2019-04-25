@@ -10,7 +10,8 @@ namespace VSTips
             //ViewUncapturedException.ViewUncapturedException.Run();
             //NSEFunctionEval.NSEFunctionEval.Run();
             //Breakpoints.Breakpoints.Run();
-            FormatSpecifiers.FormatSpecifiers.Run();
+            //FormatSpecifiers.FormatSpecifiers.Run();
+            ViewDefintion.ViewDefinition.Run();
 
             Console.ReadKey();
             
