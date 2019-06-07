@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSTips", "VSTips\VSTips.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSTips.Tests", "VSTips.Tests\VSTips.Tests.csproj", "{62717704-8261-4F5F-A1BF-E714B5EF970D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnneededProject", "UnneededProject\UnneededProject.csproj", "{389D4DA9-8EB1-40B8-A0C1-A2332027A0F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnneededProject", "UnneededProject\UnneededProject.csproj", "{389D4DA9-8EB1-40B8-A0C1-A2332027A0F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F777BEF-372C-4BE6-BAC5-986BB9D31B8D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

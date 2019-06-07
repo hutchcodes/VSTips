@@ -6,6 +6,7 @@ namespace VSTips.FormatSpecifiers
 {
     class FormatSpecifiers
     {
+        //Hack: what am I doing?
         public static void Run()
         {
             var myVal1 = 0x12341234;

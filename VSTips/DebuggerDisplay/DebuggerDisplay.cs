@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -11,6 +10,7 @@ namespace VSTips.DebuggerDisplay
         static List<Person> persons;
         public static void Run()
         {
+            //Todo: Show a task
             persons = new List<Person>
             {
                 new Person {FirstName = "Fred", LastName = "Flintstone", MiddleName="Test" },
