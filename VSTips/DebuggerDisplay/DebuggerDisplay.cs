@@ -11,6 +11,7 @@ namespace VSTips.DebuggerDisplay
         static List<Person> persons;
         public static void Run()
         {
+            //Todo: Show a task
             persons = new List<Person>
             {
                 new Person {FirstName = "Fred", LastName = "Flintstone", MiddleName="Test" },
