@@ -133,6 +133,7 @@ Here's the list of some of things I cover
 110. Typing Git Commands in Search 
 0. View Pull Request
 
+##### References
 
 \[[1](#1)] https://hutchcodes.net/2019/04/visual-studio-tips-window-management/ 
 
