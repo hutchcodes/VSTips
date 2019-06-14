@@ -12,6 +12,8 @@ namespace VSTips.FormatSpecifiers
             var myVal1 = 0x12341234;
             var myVal2 = 12341234;
             var myVal3 = 1234.1234;
+
+            //var foo = new RestRequest
         }
     }
 }

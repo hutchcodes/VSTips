@@ -2,8 +2,10 @@
 
 This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/visual-studio-tips/) blog post series and talk. 
 
+Here's the list of some of things I cover
+
 ### Windows, Settings and Setup
-1. Docking Windows \[[1]]
+1. Docking Windows \[[1]()]
 0. Pinning Windows \[[1]]
 0. Saving/Applying Window Layouts \[[1]]
 0. Setting Keyboard Shortcuts
@@ -21,7 +23,8 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 
 ### Editing 
 14. Duplicat Line/Selection \[[3]]
-0. Multi-Caret Editing \[[3]]
+0. Multi-Caret Editing  \[[3]]
+0. Multi-Caret Matching Caret 
 0. Clipboard Ring \[[3]]
 0. Insert File as Text \[[3]]
 0. Keyboard Shortcuts - Ctrl+U (Make lowercase)
@@ -39,16 +42,26 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 0. Keyboard Shortcuts - Alt+` (More Editor Commands)
 0. Keyboard Shortcuts - Alt+PageUp (Goto next issue in file)
 0. Keyboard Shortcuts - Alt+PageDown (Goto previous issue in file)
-0. Intellisense
+
+### Codefixes and Refactorings
+34. IntelliSense
+0. IntelliSense Filtering
+0. Bring back IntelliSense with Ctrl+Space
+0. Make Intellisense Transparent by holding Ctrl
 0. Intellicode
 0. Intellicode Custom Model
-0. Editor Config
-0. Code Cleanup
+0. Editor Config0. Code Cleanup
 0. Help Links in Error List
 0. Regex Syntax Highlighting/Intellisense
+0. Insert Code Snippet Ctrl+K,X
+0. Surround with Code Snippet Ctrl+K,S
+0. Change Namespace to Match Folder
+0. Move Namespace
+0. Add missing reference
+0. Invert Conditional Expression
 
 ### Debugging
-36. Pseudovariable `$exception` \[[4]]
+49. Pseudovariable `$exception` \[[4]]
 0. Pseudovariable `$user`
 0. DebuggerDisplay \[[5]]
 0. Disable Breakpoint \[[7]]
@@ -78,7 +91,7 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 
 
 ### Tool Windows
-63. Test Explorer Keyboard Shortcuts Ctrl+R,T or Ctrl+R,A (Run all tests) \[[11]]
+76. Test Explorer Keyboard Shortcuts Ctrl+R,T or Ctrl+R,A (Run all tests) \[[11]]
 0. Test Explorer Keyboard Shortcuts Ctrl+R,Ctrl+T or Ctrl+R,Ctrl+A (Debug all tests) \[[11]]
 0. Test Explorer Keyboard Shortcuts Ctrl+R,L (Run last test run) \[[11]]
 0. Test Explorer Keyboard Shortcuts Ctrl+R,Ctrl+L (Debug last test run) \[[11]]
@@ -93,10 +106,10 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 
 
 ### Navigating Code
-75. CodeLens References
+88. CodeLens References
 0. CodeLens Change History
 0. Solution Explorer \[[8]]
-0. Keyboard Shortcuts - Goto Definition F12 \[[12]]
+0. Keyboard Shortcuts - Goto Definition F12 or Ctrl+Click \[[12]]
 0. Keyboard Shortcuts - Peek Defintion Alt+F12 \[[12]]
 0. Keyboard Shortcuts - Goto Implementation Ctrl+F12 \[[12]]
 0. Keyboard Shortcuts - Find All References Shift+F12 \[[12]]
@@ -104,7 +117,8 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 0. Keyboard Shortcuts - Navigate Backward Ctrl+-
 0. Keyboard Shortcuts - Navigate Forward Ctrl+Shift+-
 0. Keyboard Shortcuts - Goto last edit location Ctrl+Shift+BackSpace
-0. Solution/Folder View 
+0. Keyboard Shortcuts - Goto Line - Ctrl+G 
+0. Keyboard Shortcuts - Goto ??? - Ctrl+T0. Solution/Folder View 
 0. Find Active Item in Solution
 0. Track Active Item in Solution
 0. Debugger.IsAttached
@@ -114,9 +128,35 @@ This is the project I used for my [Visual Studio Tips](https://hutchcodes.net/vi
 0. DebuggerHidden attribute
 0. Enable Just My Code
 0. Attach to Process
-0. 
+
+### Git
+110. Typing Git Commands in Search 
+0. View Pull Request
 
 
+\[[1](#1)] https://hutchcodes.net/2019/04/visual-studio-tips-window-management/ 
+
+\[[2]]  https://hutchcodes.net/2019/03/visual-studio-tips-source-map-scroll-bar/
+
+\[[3]]  https://hutchcodes.net/2019/04/visual-studio-tips-editing-shortcuts/
+
+\[[4]]  https://hutchcodes.net/2019/03/visual-studio-tips-view-uncaptured-exception/
+
+\[[5]]  https://hutchcodes.net/2019/03/visual-studio-tips-debugger-display/
+
+\[[6]]  https://hutchcodes.net/2019/03/visual-studio-tips-no-side-effects-function-eval/
+
+\[[7]]  https://hutchcodes.net/2019/03/visual-studio-break-points/
+
+\[[8]]  https://hutchcodes.net/2019/03/visual-studio-solution-explorer-search/
+
+\[[9]]  https://hutchcodes.net/2019/04/visual-studio-tips-using-data-tips/
+
+\[[10]] https://hutchcodes.net/2019/04/visual-studio-tips-trace-points/
+
+\[[11]] https://hutchcodes.net/2019/04/visual-studio-tips-test-explorer/
+
+\[[12]] https://hutchcodes.net/2019/04/visual-studio-tips-code-definition-keyboard-shortcuts/
 
 [1]:  https://hutchcodes.net/2019/04/visual-studio-tips-window-management/
 [2]:  https://hutchcodes.net/2019/03/visual-studio-tips-source-map-scroll-bar/

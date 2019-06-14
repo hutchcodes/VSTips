@@ -18,8 +18,8 @@ namespace VSTips.DebuggerDisplay
                 new Person {FirstName = "Pebbles", LastName = "Flintstone" },
                 new Person {FirstName = "Barney", LastName = "Rubble", MiddleName="Test" },
                 new Person {FirstName = "Betty", LastName = "Rubble", MiddleName="Test" },
-                new Person {FirstName = "Bamm-Bamm", LastName = "Rubble" },             
-                
+                new Person {FirstName = "Bamm-Bamm", LastName = "Rubble" },
+
             };
 
             var p = new Person { FirstName = "Dino", LastName = "Flintstone" };
