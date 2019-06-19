@@ -8,8 +8,6 @@ namespace UnneededProject
         {
             //This is just an bonus project to demo SolutionFilters
             Console.WriteLine("Hello World!");
-
-            
         }
     }
 }

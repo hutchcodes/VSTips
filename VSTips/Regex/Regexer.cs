@@ -6,10 +6,10 @@ namespace VSTips.Regexer
 	{
 		public bool CheckString(string value)
 		{
-			var regEx = new Regex(@"(A|[B]|C)Test\1");
+            //language=regex,ExplicitCapture
+            string containsUnicode = @"\\\\u[0-9A-Fa-f]{4}";
 
-			//language=regex,ExplicitCapture
-			string containsUnicode = @"\\\\u[0-9A-Fa-f]{4}";
+            var regEx = new Regex(@"(A|[B]|C)Test\1");
 
 			var match = new Regex(containsUnicode).Match(value);
 
